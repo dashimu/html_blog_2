@@ -7,6 +7,7 @@
 p {
     font-size: 18px;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 nav {
@@ -36,9 +37,11 @@ nav ul li a {
     display: inline-block;
     height: inherit;
 }
-
+header {
+    background: rgb(0, 0, 0, 0.3);
+}
 #banner {
-    background: #777;
+    background: transparent;
     height: 700px;
 }
 
@@ -68,7 +71,7 @@ button {
 }
 
 #banner .inner .more {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .sub-heading {
@@ -212,4 +215,12 @@ ul.share-group {
 
 .copy {
     padding-bottom: 30px;
+}
+
+.main-wrapper {
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
