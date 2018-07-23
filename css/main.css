@@ -1,3 +1,14 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
 nav {
     background: #ccc;
     height: 50px;
@@ -139,10 +150,7 @@ button {
     margin-bottom: 20px;
 }
 
-.text-section p {
-    font-size: 18px;
-    letter-spacing: 1px;
-}
+
 
 .text-section > * {
     max-width: 90%;
@@ -150,4 +158,35 @@ button {
 
 .article-preview:nth-child(odd) {
     background-color: rgb(255, 255, 255, 0.3);
+}
+
+.purple-section {
+    padding: 80px;
+    background: rgb(152, 29, 235);
+    color: #fff;
+}
+
+.purple-section .heading-wrapper {
+    text-align: center;
+}
+
+.purple-section .hr {
+    background: rgb(37, 34, 34);
+    width: 70%;
+}
+
+.card {
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.card:first-child {
+    background-color: rgba(0,0,0, 0.04);
+}
+
+.card:nth-child(2) {
+    background-color: rgba(0,0,0, 0.08);;
 }
