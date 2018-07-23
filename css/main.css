@@ -36,12 +36,14 @@ nav ul li a {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    top: 160px;
+    top: 130px;
 }
 
 #banner .inner h1 {
     margin: 0;
-}    /* 消除h1原有的margin , 使衔接*/
+}
+
+/* 消除h1原有的margin , 使衔接*/
 
 button {
     border: none;
@@ -50,6 +52,15 @@ button {
     padding: 10px;
 }
 
+#banner button {
+    padding: 14px 60px;
+}
+
 #banner .inner .more {
     margin-top: 150px;
+}
+
+.sub-heading {
+    line-height: 30px;
+    margin: 30px;
 }
