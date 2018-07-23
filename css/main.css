@@ -100,3 +100,54 @@ button {
     min-width: 1080px;
     margin: 0 auto;
 }
+
+.gray-section {
+    background: rgb(97, 95, 95);
+
+}
+
+.gray-section .img-section {
+    width: 45%;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.gray-section .text-section {
+    width: 55%;
+}
+
+.article-preview > div {
+    float: left;
+    font-size: 0;
+}
+
+.article-preview::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-section {
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+
+.text-section h2 {
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-section > * {
+    max-width: 90%;
+}
+
+.article-preview:nth-child(odd) {
+    background-color: rgb(255, 255, 255, 0.3);
+}
